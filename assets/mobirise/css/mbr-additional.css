@@ -926,6 +926,9 @@ blockquote {
   text-align: center;
   color: #3498db;
 }
+#contacts3-t .form-control-label {
+  color: undefined;
+}
 #content3-p .mbr-section-title,
 #content3-p .mbr-section-subtitle {
   text-align: center;
