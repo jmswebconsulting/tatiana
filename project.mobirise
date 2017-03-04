@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 24,
+    "uniqCompNum": 27,
     "versionPublish": "3.12",
     "mcShopcart": {
       "email": "jmswebconsulting@outlook.com",
@@ -112,16 +112,20 @@
           "_anchor": "menu-1",
           "_params": {
             "bgColor": "#2c3e50",
-            "fontSize": "1.4",
-            "fontName": {},
-            "fontColor": "#2980b9",
+            "fontSize": "1.45",
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#3498db",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": true
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -139,8 +143,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Loja.html#contacts1-9\">Contacto</a></li>"
         },
         {
           "_styles": {
@@ -603,19 +607,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#2980b9"
+              "color": "#3498db"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#2980b9"
+              "background-color": "#3498db"
             },
             ".link, .dropdown-item": {
-              "color": "#2980b9"
+              "color": "#3498db",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
             },
             ".link": {
-              "font-size": "1.4rem"
+              "font-size": "1.45rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.516rem"
+              "font-size": "1.570rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -624,7 +630,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#2980b9"
+              "color": "#3498db"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#1a242f"
@@ -636,7 +642,7 @@
               "background": "#2c3e50"
             },
             ".bg-color.transparent .link": {
-              "color": "#2980b9",
+              "color": "#3498db",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -657,24 +663,28 @@
           "_anchor": "menu-5",
           "_params": {
             "bgColor": "#2c3e50",
-            "fontSize": "1.4",
-            "fontName": {},
-            "fontColor": "#2980b9",
+            "fontSize": "1.45",
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#3498db",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": true
+            "hideButtons": false
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1281.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -684,8 +694,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Loja.html#contacts1-9\">Contacto</a></li>"
         },
         {
           "_styles": {
@@ -722,7 +732,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
+            "overlayOpacity": "0.8",
             "overlayColor": "#2c3e50",
             "showText": false,
             "showTitle": true,
@@ -735,6 +745,26 @@
         },
         {
           "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-p",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#bbbbbb",
+            "showMeta": true
+          },
+          "title": "Artigos de Novidade",
+          "meta": "Destaques deste Mês"
+        },
+        {
+          "_styles": {
             ".lead": {
               "color": "#9fa3a7"
             },
@@ -742,11 +772,19 @@
               "text-transform": "uppercase"
             },
             "DIV": {
-              "text-align": "right"
+              "text-align": "right",
+              "font-size": "25px"
             },
             ".mbr-section-text": {
-              "color": "#c0392b",
-              "text-align": "right"
+              "color": "#000000",
+              "text-align": "left",
+              "font-size": "16px"
+            },
+            ".mbr-section-title P": {
+              "text-align": "left",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
+              "font-size": "24px"
             }
           },
           "title2": "Responsive",
@@ -771,13 +809,13 @@
           "_name": "features7",
           "_anchor": "features7-n",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "22",
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
-            "bgColor": "#9b59b6",
+            "bgColor": "#bbbbbb",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -789,7 +827,7 @@
             "showImages": true,
             "showNumber": false,
             "showTitles": true,
-            "showSubtitles": true,
+            "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": true
           },
@@ -807,9 +845,84 @@
           },
           "number1": "1",
           "subtitle1": "",
-          "title1": "<p><a href=\"Loja.html\">vaso de cravos e orquideas</a><a href=\"Loja.html\"></a><a href=\"Loja.html\"></a></p>",
+          "title1": "<p><i>Vaso de cravos e orquideas &nbsp; &nbsp; Preço &nbsp;€55.00</i><a href=\"Loja.html\"></a></p>",
+          "caption1": "Este é um dos arranjos especiais , pode ser alterado consoante as suas necessidades.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=55.00&amp;item_name=vaso+de+cravos+e+orquideas&amp;currency_code=EUR\" data-toolbar=\"-mbrBtnMove\">adicionar ao carro</a> "
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
+              "font-size": "22px",
+              "color": "#000000"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-q",
+          "_params": {
+            "imageSize": "22",
+            "paddingTop": 2,
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#bbbbbb",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/roses1-600x706.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "number1": "1",
+          "subtitle1": "Dúzia de Rosas em Jarra &nbsp; &nbsp; &nbsp;Preço 27.50&nbsp;",
+          "title1": "",
           "caption1": "este é um dos arranjos especiais , pode ser alterado consoante as suas necessidades.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=55.00&amp;item_name=vaso+de+cravos+e+orquideas&amp;currency_code=EUR\" data-toolbar=\"-mbrBtnMove\">adicionar ao carro</a>"
+          "button1": " <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=27..50&amp;item_name=D%C3%BAzia+de+Rosas+em+Jarra&amp;currency_code=EUR\" data-toolbar=\"-mbrBtnMove\">adicionar ao carro</a>"
         },
         {
           "_styles": {
@@ -946,7 +1059,7 @@
               {
                 "itemPriceTitle": "From: ",
                 "caption": "Type caption here",
-                "active": false,
+                "active": true,
                 "tags": "Creative",
                 "bestSeller": true,
                 "thumb": "@PROJECT_PATH@/assets/images/tulipas-2000x2494-800x997.jpg",
@@ -1015,7 +1128,7 @@
               {
                 "itemPriceTitle": "From: ",
                 "caption": "Type caption here",
-                "active": true,
+                "active": false,
                 "tags": "Creative",
                 "bestSeller": false,
                 "thumb": "@PROJECT_PATH@/assets/images/arranjo-em-cesta-de-vime-2000x2359-800x943.jpg",
@@ -1031,7 +1144,7 @@
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40.00&amp;item_name=Jarro+de+Flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               }
             ],
-            "bgColor": "#f5f5f5",
+            "bgColor": "#ffffff",
             "showTitle": true,
             "showBestSellers": true,
             "priceRange": false,
@@ -1049,6 +1162,126 @@
           "price_range_reset": "<a class=\"btn btn-secondary showAll\">Show all</a>",
           "sidebar3": "Produtos por categorias",
           "allItem": "Todos"
+        },
+        {
+          "_styles": {
+            ".card-block p": {
+              "font-size": "15px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "slides": [
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/roses1-135x160.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "José Alves",
+                "authorBio": "clinte antigo",
+                "text": "<p>“A Tatiana recomendou este arranjo e foi a escollha certa.</p><p>Muito Obrigadol”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/vaso-flores-156x160.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Jorge Pinto",
+                "authorBio": "novo cliente",
+                "text": "<p>“Este arranjo estave em promoção, foi um excelente nrgócio. ”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/arranjo-em-cesta-de-vime-135x160.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Fernando",
+                "authorBio": "Prenda para a mãe",
+                "text": "<p>“Este arranjo foi uma prenda para a minha mãe, ela adorou.</p><p>Obrigado pelo trabalho ”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/vaso-cravos-128x160.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Henriques",
+                "authorBio": "novo cliente",
+                "text": "<p>\"Foi a primeira vez que comprei online, adorei a experiência \"</p>"
+              }
+            ],
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showBullets": true,
+            "visibleSlides": "3",
+            "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
+            "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
+          },
+          "_anchor": "testimonials1-o",
+          "title": "comentários de clientes",
+          "subtitle": "on nossos clientes são o motivo do nosso negócio"
         },
         {
           "_styles": {},
@@ -1071,7 +1304,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#ecf0f1",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
@@ -1098,7 +1331,7 @@
           "title2": "+1 234-567-890",
           "cat3": "email",
           "title3": "sample@sample.pt",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "text": "contate-nos online ou por telefone se quiser confirmar a sua ordem ou data e hora da entrega",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>"
         },
         {
@@ -1111,7 +1344,8 @@
               "font-size": "2rem"
             },
             ".mbr-section-title": {
-              "color": "#fff"
+              "color": "#3498db",
+              "font-size": "60px"
             }
           },
           "_tags": [
@@ -1125,7 +1359,7 @@
             "bgImageRadio": true,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/img-extheader7-bg.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#dddddd",
             "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.4,
@@ -1208,16 +1442,20 @@
           "_anchor": "menu-a",
           "_params": {
             "bgColor": "#2c3e50",
-            "fontSize": "1.4",
-            "fontName": {},
-            "fontColor": "#2980b9",
+            "fontSize": "1.45",
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#3498db",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": true
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -1235,8 +1473,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Loja.html#contacts1-9\">Contacto</a></li>"
         },
         {
           "_tags": [

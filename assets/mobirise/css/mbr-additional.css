@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
 
 
 
@@ -836,6 +838,9 @@ blockquote {
 #social-buttons1-k .mbr-section-title {
   color: #fff;
 }
+
+
+
 #menu-5 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -843,22 +848,23 @@ blockquote {
   color: #ffffff;
 }
 #menu-5 .navbar-toggler {
-  color: #2980b9;
+  color: #3498db;
 }
 #menu-5 .close-icon::before,
 #menu-5 .close-icon::after {
-  background-color: #2980b9;
+  background-color: #3498db;
 }
 #menu-5 .link,
 #menu-5 .dropdown-item {
-  color: #2980b9;
+  color: #3498db;
+  font-family: 'Raleway', sans-serif;
 }
 #menu-5 .link {
-  font-size: 1.4rem;
+  font-size: 1.45rem;
 }
 #menu-5 .dropdown-item,
 #menu-5 .nav-dropdown-sm .link {
-  font-size: 1.516rem;
+  font-size: 1.570rem;
 }
 #menu-5 .link:hover,
 #menu-5 .link:focus {
@@ -870,7 +876,7 @@ blockquote {
 }
 #menu-5 .dropdown-item:hover,
 #menu-5 .dropdown-item:focus {
-  color: #2980b9;
+  color: #3498db;
 }
 #menu-5 .link[aria-expanded="true"],
 #menu-5 .dropdown-menu {
@@ -889,7 +895,7 @@ blockquote {
   background: #2c3e50;
 }
 #menu-5 .bg-color.transparent .link {
-  color: #2980b9;
+  color: #3498db;
   transition: none;
 }
 #menu-5 .bg-color.transparent.opened .link {
@@ -916,6 +922,10 @@ blockquote {
   text-align: center;
   color: #ffffff;
 }
+#content3-p .mbr-section-title,
+#content3-p .mbr-section-subtitle {
+  text-align: center;
+}
 #features7-n .lead {
   color: #9fa3a7;
 }
@@ -924,10 +934,26 @@ blockquote {
 }
 #features7-n DIV {
   text-align: right;
+  font-size: 25px;
 }
 #features7-n .mbr-section-text {
-  color: #c0392b;
-  text-align: right;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+}
+#features7-n .mbr-section-title P {
+  text-align: left;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+}
+#features7-q .lead {
+  color: #9fa3a7;
+}
+#features7-q .mbr-section-subtitle {
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 22px;
+  color: #000000;
 }
 #shop1-7 .galleryItem h4:hover {
   color: #f39c12;
@@ -973,6 +999,9 @@ blockquote {
 #shop1-7 .sidebar-title {
   color: #e67e22;
 }
+#testimonials1-o .card-block p {
+  font-size: 15px;
+}
 #social-buttons1-8 .btn-social {
   color: #fff;
   height: 60px;
@@ -981,7 +1010,8 @@ blockquote {
   font-size: 2rem;
 }
 #social-buttons1-8 .mbr-section-title {
-  color: #fff;
+  color: #3498db;
+  font-size: 60px;
 }
 #menu-a .hide-buttons .nav-btn {
   display: none !important;
