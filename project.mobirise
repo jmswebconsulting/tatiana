@@ -1,0 +1,1377 @@
+{
+  "settings": {
+    "name": "Flower shop",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.12",
+    "uniqCompNum": 21,
+    "versionPublish": "3.12",
+    "mcShopcart": {
+      "email": "jmsantos1863@gmail.com",
+      "iconSize": "30",
+      "iconColor": "#FFFFFF",
+      "backColor": "#000000",
+      "topOffset": "120",
+      "rightOffset": "20",
+      "siteWidth": "1150",
+      "counterSize": "12",
+      "counterColor": "#FFFFFF",
+      "counterBack": "#F97352",
+      "checkoutButton": "Check Out with"
+    }
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#2980b9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2980b9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2980b9"
+            },
+            ".link": {
+              "font-size": "1.4rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.516rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#2980b9"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2980b9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1",
+          "_params": {
+            "bgColor": "#2c3e50",
+            "fontSize": "1.4",
+            "fontName": {},
+            "fontColor": "#2980b9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "color": "#e67e22"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2",
+          "_params": {
+            "buttonAlign": "left",
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+            "bgColor": "#16a085",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000000",
+            "showText": false,
+            "showTitle": true,
+            "showButtons": false
+          },
+          "text": "Develop fully responsive, mobile-ready websites",
+          "title": "Tatiana<br>Flower Shop<br>Tomar",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "color": "#e67e22"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#8e44ad",
+              "font-size": "30px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".mbr-section-text": {
+              "color": "#ecf0f1",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "18px",
+              "text-align": "right"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "title2": "Responsive",
+          "title3": "Web Fonts",
+          "title4": "Unlimited Sites",
+          "title5": "Trendy Website Blocks",
+          "title6": "Host Anywhere",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-3",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#2c3e50",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "title": "Produtos da Semana",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle1": "Tulipas sempre frescas",
+          "caption1": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x399.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle2": "arranjo de flores diversas",
+          "caption2": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x399.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle3": "duzia de rosas em vaso",
+          "caption3": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x400.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle4": "bouquet de noiva",
+          "caption4": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/05.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/06.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#95a5a6"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#e67e22",
+              "font-size": "19px"
+            },
+            ".mbr-section-title": {
+              "color": "#95a5a6"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features14",
+          "_anchor": "features14-4",
+          "_params": {
+            "number1": "",
+            "imageSize": "59",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#2c3e50",
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-2-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Loja.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "number1": "01",
+          "subtitle1": "Visita a nossa loja <b>online</b>",
+          "title1": "Entregas no prazo de 24 horas",
+          "caption1": "<b>Flores para todas as datas e em qualquer ponto de entrega num raio de 30 kilometros sem custos adicionais em compras superiores a 45 Euros.</b>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">watch now</a>"
+        },
+        {
+          "_styles": {},
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-i",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#34495e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": false,
+            "googleMap": {
+              "address": "tomar",
+              "placeId": "ChIJkQ09Bt57GA0RgDqQ5L3rAAQ",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "cat1": "morada",
+          "title1": "Tatiana's&nbsp;",
+          "cat2": "telefone",
+          "title2": "967655258",
+          "cat3": "email",
+          "title3": "tatiana@gmail.com",
+          "text": "Se necessitar mais detalhes por favor entre em contacto.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-k",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader7-bg.jpg",
+            "bgColor": "#34495e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#35a0c6",
+            "facebook": true,
+            "twitter": false,
+            "google": false,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_styles": {},
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "Support",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "followtext": "follow us",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer7",
+          "_anchor": "footer7-j",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#f7f7f7",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#f7f7f7",
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "titled1": "<a href=\"index.html\">Private policy</a>",
+          "titled2": "Terms &amp; <a href=\"index.html\">Conditions</a>",
+          "titled3": "<a href=\"index.html\">Copyright Notifications</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "text": "<a href=\"index.html\">Copyright (c) 2016 tatiana's&nbsp;.</a>"
+        }
+      ]
+    },
+    "Loja.html": {
+      "settings": {
+        "title": "Loja online"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#2980b9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2980b9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2980b9"
+            },
+            ".link": {
+              "font-size": "1.4rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.516rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#2980b9"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2980b9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-5",
+          "_params": {
+            "bgColor": "#2c3e50",
+            "fontSize": "1.4",
+            "fontName": {},
+            "fontColor": "#2980b9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-6",
+          "_params": {
+            "buttonAlign": "left",
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334-1.jpg",
+            "bgColor": "#16a085",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#16a085",
+            "showText": false,
+            "showTitle": true,
+            "showButtons": false
+          },
+          "text": "Develop fully responsive, mobile-ready websites",
+          "title": "Tatiana<br>Flower Shop<br>Tomar",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown-2.png"
+        },
+        {
+          "_styles": {
+            ".galleryItem h4:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li.active": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:before": {
+              "background": "@primaryColor"
+            },
+            ".min-toggle:hover, .max-toggle:hover": {
+              "background-color": "@primaryColor"
+            },
+            ".shop-title": {
+              "font-family": "@titleFont"
+            },
+            ".categories-titles .mbr-gallery-filter ul li": {
+              "font-family": "@titleFont"
+            },
+            ".max-input": {
+              "font-family": "@titleFont"
+            },
+            ".min-input": {
+              "font-family": "@titleFont"
+            },
+            ".item-title": {
+              "font-family": "@titleFont"
+            },
+            ".card-description": {
+              "font-family": "@textFont"
+            },
+            ".shop-item-price": {
+              "font-family": "@subtitleFont"
+            }
+          },
+          "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "shop1",
+          "_params": {
+            "showSidebar": true,
+            "showSortButtons": true,
+            "showStars": true,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "filterBgColor": false,
+            "fontHoverColor": "@primaryColor",
+            "mainTitle": "@titleFont",
+            "mainSubTitle": "@subtitleFont",
+            "mainText": "@textFont",
+            "images": [
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "active": false,
+                "tags": "Awesome",
+                "bestSeller": true,
+                "thumb": "@PROJECT_PATH@/assets/images/arranjo-flores-diversas-2000x2594-800x1037.jpg",
+                "image": "@PROJECT_PATH@/assets/images/arranjo%20flores%20diversas-2000x2594.jpg",
+                "onsale": "SALE 50% OFF",
+                "itemTitle": "vaso de flores diversas",
+                "itemSubtitle": "could be your best friend",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
+                "itemPrice": "€36.00",
+                "itemDescription": "Beware! It can fly away. We make no guarantees.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>367DDF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=36&amp;item_name=comprar&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">comprar</a>"
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Wonderful",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/roses1-2000x2356-800x942.jpg",
+                "image": "@PROJECT_PATH@/assets/images/roses1-2000x2356.jpg",
+                "onsale": "SALE 50% OFF",
+                "itemTitle": "Vaso de rosas",
+                "itemSubtitle": "your energy dose",
+                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
+                "stars": "@PROJECT_PATH@/assets/images/2.png",
+                "itemPrice": "$25.50",
+                "itemDescription": "There are contraindications.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34567F5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=25&amp;item_name=Duzia+de+rosas&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">comprar</a>",
+                "active": true
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/shop3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/shop3.jpg",
+                "onsale": "SALE 50% OFF",
+                "onSale": false,
+                "itemTitle": "flores2",
+                "itemSubtitle": "for freedom",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "itemPrice": "$60.00",
+                "itemDescription": "flores<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3476DF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=35&amp;item_name=Buy+now!&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">comprar</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/tulipas-e-rosas-2000x2331-800x932.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tulipas%20e%20rosas-2000x2331.jpg",
+                "onsale": "SALE 50% OFF",
+                "itemTitle": "orquideas",
+                "itemSubtitle": "sempre frescas",
+                "starsImg": "@PROJECT_PATH@/assets/images/5.png",
+                "stars": "@PROJECT_PATH@/assets/images/5.png",
+                "itemPrice": "$78.00",
+                "itemDescription": "You should believe it works, otherwise there is no magic!<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3478DF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=55&amp;item_name=Buy+now!&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">comprar</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": true,
+                "thumb": "@PROJECT_PATH@/assets/images/tulipas-2000x2494-800x997.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tulipas-2000x2494.jpg",
+                "onsale": "SALE 50% OFF",
+                "itemTitle": "Invisible Hat",
+                "itemSubtitle": "seen/not seen on photo",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "itemPrice": "$89.90",
+                "itemDescription": "Has no weight! Try not to lose it.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34GFDF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-primary btn-primary-outline btn-primary-outline\">Buy now!</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Wonderful",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/vaso-cravos-2000x2485-800x994.jpg",
+                "image": "@PROJECT_PATH@/assets/images/vaso%20cravos-2000x2485.jpg",
+                "onsale": "SALE 50% OFF",
+                "itemTitle": "Shoes",
+                "itemSubtitle": "made for walking",
+                "starsImg": "@PROJECT_PATH@/assets/images/1.png",
+                "stars": "@PROJECT_PATH@/assets/images/1.png",
+                "itemPrice": "$9.00",
+                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>385DDF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-primary btn-primary-outline\">Buy now!</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/vaso-flores-2000x2050-800x820.jpg",
+                "image": "@PROJECT_PATH@/assets/images/vaso%20flores-2000x2050.jpg",
+                "onsale": "SALE 50% OFF",
+                "itemTitle": "Backpack",
+                "itemSubtitle": "keeps your hands free",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "itemPrice": "$29.00",
+                "itemDescription": "Seen on photo. Check our gallery for more photos.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>340DDF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-primary btn-primary-outline\">Buy now!</a>",
+                "active": false
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/roses1-2000x2356-800x942.jpg",
+                "image": "@PROJECT_PATH@/assets/images/roses1-2000x2356.jpg",
+                "onsale": "SALE 50% OFF",
+                "itemTitle": "Fun garlands",
+                "itemSubtitle": "to make your life happier",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
+                "itemPrice": "$3.50",
+                "itemDescription": "Hand-made! So they may differ.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34556F5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-primary btn-primary-outline\">Buy now!</a>",
+                "active": false
+              }
+            ],
+            "bgColor": "#f5f5f5",
+            "showTitle": true,
+            "showBestSellers": true,
+            "priceRange": true,
+            "filter": true
+          },
+          "_anchor": "shop1-7",
+          "title": "Shop",
+          "filter_by_d": "<a data-app-btn=\"true\" class=\"btn btn-primary\">Default sorting</a>",
+          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\">Price: low to high</a>",
+          "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\">Price: high to low</a>",
+          "articleLayout": false,
+          "sidebar1": "Best Sellers",
+          "sidebar2": "Filter by price",
+          "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
+          "price_range_reset": "<a class=\"btn btn-secondary showAll\">Show all</a>",
+          "sidebar3": "Product Categories",
+          "allItem": "All"
+        },
+        {
+          "_styles": {},
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-9",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": true,
+            "googleMap": {
+              "address": "tomar\nportugal",
+              "placeId": "ChIJK8leGat-GA0R6uUjP8gMizY",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "cat1": "address",
+          "title1": "350 5th Ave, New York, NY 10118",
+          "cat2": "phone",
+          "title2": "+1 234-567-890",
+          "cat3": "email",
+          "title3": "sample@sample.us",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader7-bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#35a0c6",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        }
+      ]
+    },
+    "Acerca.html": {
+      "settings": {
+        "title": "Acerca da Tatiana"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#2980b9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2980b9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2980b9"
+            },
+            ".link": {
+              "font-size": "1.4rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.516rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#2980b9"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2980b9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-a",
+          "_params": {
+            "bgColor": "#2c3e50",
+            "fontSize": "1.4",
+            "fontName": {},
+            "fontColor": "#2980b9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert2.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#169581",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "Acerca da Loja",
+          "caption": "<p>Venha visitar-nos</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-text": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-title": {
+              "color": "#242424",
+              "font-weight": "bold",
+              "font-size": "46px"
+            },
+            ".mbr-section-text B": {
+              "color": "#2ecc71"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header7",
+          "_anchor": "header7-c",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "subtitle": "",
+          "title": "VENHA CONHECER-NOS MELHOR",
+          "text": "<b>Eu trabalhei por 5 anos para um florista grande, multi local de varejo em Lebanon PA, Royers Flowers. Essa experiência começou como um estágio no meu primeiro ano de faculdade através do programa de bolsas Mossmiller do American Floral Endowment. Quando eu me formei na Cornell University www.cornell.edu com um BS em Floricultura e Horticultura Ornamentais, eu voltei a esse florista de varejo como um empregado regular. Mudei-me através de seus programas extensivos do treinamento do projeto e da gerência. Eu era o gerente assistente de um local de vendas $ 1M + quando eu à esquerda lá para juntar o florista por atacado, Dillon Floral Corp www.dillonfloral.com em Bloomsburg, PA.<br><br>Durante meu mandato no Dillon Floral, tive oportunidades sem igual para ajudar a produzir e assistir a shows de design, seminários e workshops. Tenho assistido a muitas feiras e trabalhou um a um com fornecedores florais, plantas e fornecedores de flores frescas, fabricantes e produtores.<br><br>A intenção deste site é ajudá-lo a ter sucesso como um florista de varejo ... Eu quero fornecer boas informações e recursos adicionais para ajudá-lo a ser tudo o que você pode ser. Meu conselho para você é: Planeje cuidadosamente, escolha sabiamente e aproveite esta maravilhosa indústria!</b><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "media": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1440x1080.jpg",
+              "class": "",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features9",
+          "_anchor": "features9-d",
+          "_params": {
+            "blocks": "5",
+            "cardsColor": "#f2e6c6",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#95a5a6",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true
+          },
+          "mainTitle": "hISTORIA DA LOJA",
+          "mainSubtitle": "ASSISTA AO NOSSO CRESCIMENTO",
+          "date1": "1 January 2012",
+          "title1": "1. ABERTURA DA LOJA",
+          "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date2": "2 Ferbuary 2014",
+          "title2": "2. &nbsp;MUDA-MOS AS MONTRAS",
+          "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date3": "3 March 2015",
+          "title3": "3. &nbsp;ADICIONAMOS 2 NOVOS EMPREGADOS",
+          "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date4": "4 April 2016",
+          "title4": "4. &nbsp;NOVO SISTEMA DE ORDENS",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date5": "5 May 2017",
+          "title5": "5. cRIAMOS A LOJA ONLINE E WEBSITE",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date6": "6 June 2016",
+          "title6": "6. Multi Homepages",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date7": "7 July 2016",
+          "title7": "7. Responsive Design",
+          "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date8": "8 August 2016",
+          "title8": "8. Smart Watch",
+          "text8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date9": "9 September 2016",
+          "title9": "9. Design out of the box",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date10": "10 October 2016",
+          "title10": "10. Awesome Reports",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date11": "11 November 2016",
+          "title11": "11. Design out of the box",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "date12": "12 December 2016",
+          "title12": "12. Awesome Reports",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit."
+        },
+        {
+          "_styles": {},
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-e",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": false,
+            "googleMap": {
+              "address": "TOMAR ",
+              "placeId": "ChIJkQ09Bt57GA0RgDqQ5L3rAAQ",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "cat1": "address",
+          "title1": "TOMAR - PORTUGAL&nbsp;",
+          "cat2": "phone",
+          "title2": "+1 234-567-890",
+          "cat3": "email",
+          "title3": "sample@sample.us",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-f",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader7-bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#35a0c6",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        }
+      ]
+    }
+  }
+}
