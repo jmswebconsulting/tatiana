@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Flower shop",
-    "currentPage": "Acerca.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -207,10 +207,10 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".mbr-section-text": {
-              "color": "#ecf0f1",
+              "color": "#7f8c8d",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "18px",
+              "font-size": "25px",
               "text-align": "right"
             }
           },
@@ -270,7 +270,7 @@
             }
           },
           "subtitle1": "Tulipas sempre frescas",
-          "caption1": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "caption1": "Tulipas: Gosta de muita luz, mas não deve ficar diretamente exposta ao sol, a terra deve ser mantida moderadamente Húmida.",
           "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media2": {
             "image": {
@@ -293,7 +293,7 @@
             }
           },
           "subtitle2": "arranjo de flores diversas",
-          "caption2": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "caption2": "Como cuidar de bouquets:<br>Ao receber um bouquet de flores, corte o caule das flores delicadamente na diagonal, aproximadamente 1 cm da haste, arranque as folhas que forem ficando submersa na água e coloque o bouquet em um vaso com água fresca e limpa imediatamente.",
           "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media3": {
             "image": {
@@ -316,7 +316,7 @@
             }
           },
           "subtitle3": "duzia de rosas em vaso",
-          "caption3": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "caption3": "Ao receber um arranjo floral, complete o compartimento de água imediatamente, usando sempre água fresca e limpa.<br>Mantenha seu arranjo em local fresco, evitando exposição direta ao sol, ao vento e ao ar condicionado/e ou aquecedores que recesam o ambiente, diminuindo a vida das flores do seu arranjo.",
           "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media4": {
             "image": {
@@ -339,7 +339,7 @@
             }
           },
           "subtitle4": "bouquet de noiva",
-          "caption4": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "caption4": "Troque a água do vaso com as flores por completo diariamente sempre usando água fresca e limpa, evitando a proliferação de microorganismos. O caule deve ser podado pelo menos de dois em dois dias seguindo a forma indicada acima.<br>Algumas flores são mais sensíveis que outras, por este motivo é comum que algumas delas pereçam primeiro.",
           "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media5": {
             "image": {
@@ -576,7 +576,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1288.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1289.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
