@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "3.12",
     "mcShopcart": {
       "email": "jmswebconsulting@outlook.com",
@@ -735,6 +735,80 @@
         },
         {
           "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            "DIV": {
+              "text-align": "right"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-n",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/tulipas-600x748.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "number1": "1",
+          "subtitle1": "",
+          "title1": "<p><a href=\"Loja.html\">vaso de cravos e oerquideas</a><a href=\"Loja.html\"></a></p>",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=55.00&amp;item_name=adicionar+ao+carro&amp;currency_code=EUR\" data-toolbar=\"-mbrBtnMove\">adicionar ao carro</a>"
+        },
+        {
+          "_styles": {
             ".galleryItem h4:hover": {
               "color": "@primaryColor"
             },
@@ -799,11 +873,11 @@
               {
                 "itemPriceTitle": "From: ",
                 "caption": "Type caption here",
-                "active": true,
+                "active": false,
                 "tags": "Awesome",
                 "bestSeller": true,
-                "thumb": "@PROJECT_PATH@/assets/images/arranjo-flores-diversas-2000x2594-800x1037.jpg",
-                "image": "@PROJECT_PATH@/assets/images/arranjo%20flores%20diversas-2000x2594.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/arranjo-em-cesta-de-vime-2000x2359-800x943.jpg",
+                "image": "@PROJECT_PATH@/assets/images/arranjo%20em%20cesta%20de%20vime-2000x2359.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "vaso de flores diversas",
                 "itemSubtitle": "mais vendido",
@@ -836,11 +910,11 @@
                 "active": false,
                 "tags": "Creative",
                 "bestSeller": false,
-                "thumb": "@PROJECT_PATH@/assets/images/shop3.jpg",
-                "image": "@PROJECT_PATH@/assets/images/shop3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vaso-flores-2000x2064-800x825.jpg",
+                "image": "@PROJECT_PATH@/assets/images/vaso-flores-2000x2064.jpg",
                 "onsale": "SALE 50% OFF",
                 "onSale": false,
-                "itemTitle": "flores2",
+                "itemTitle": "cesta de flores diversas",
                 "itemSubtitle": "for freedom",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
@@ -933,6 +1007,24 @@
                 "itemPrice": "€30.00",
                 "itemDescription": "Hand-made! So they may differ.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br><br>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=30.00&amp;item_name=arranjo+de+rosas&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "active": true,
+                "tags": "Creative",
+                "bestSeller": false,
+                "thumb": "@PROJECT_PATH@/assets/images/arranjo-em-cesta-de-vime-2000x2359-800x943.jpg",
+                "image": "@PROJECT_PATH@/assets/images/arranjo%20em%20cesta%20de%20vime-2000x2359.jpg",
+                "onsale": "SALE 50% OFF",
+                "onSale": false,
+                "itemTitle": "arranjo em cesta de vime",
+                "itemSubtitle": "for freedom",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "itemPrice": "€40.00",
+                "itemDescription": "flores<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3476DF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40.00&amp;item_name=Jarro+de+Flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               }
             ],
             "bgColor": "#f5f5f5",

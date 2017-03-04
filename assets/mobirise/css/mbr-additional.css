@@ -916,6 +916,15 @@ blockquote {
   text-align: center;
   color: #ffffff;
 }
+#features7-n .lead {
+  color: #9fa3a7;
+}
+#features7-n .mbr-section-subtitle {
+  text-transform: uppercase;
+}
+#features7-n DIV {
+  text-align: right;
+}
 #shop1-7 .galleryItem h4:hover {
   color: #f39c12;
 }
