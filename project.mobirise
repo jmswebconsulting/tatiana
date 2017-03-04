@@ -1,12 +1,12 @@
 {
   "settings": {
     "name": "Flower shop",
-    "currentPage": "Loja.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
       "styling": {
-        "primaryColor": "#f39c12",
+        "primaryColor": "#2980b9",
         "buttonsColor": "#000000",
         "secondaryColor": "#9b59b6",
         "successColor": "#2ecc71",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 30,
+    "uniqCompNum": 23,
     "versionPublish": "3.12",
     "mcShopcart": {
       "email": "jmswebconsulting@outlook.com",
@@ -58,21 +58,19 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#3498db"
+              "color": "#2980b9"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3498db"
+              "background-color": "#2980b9"
             },
             ".link, .dropdown-item": {
-              "color": "#3498db",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-family": "'Raleway', sans-serif"
+              "color": "#2980b9"
             },
             ".link": {
-              "font-size": "1.45rem"
+              "font-size": "1.4rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.570rem"
+              "font-size": "1.516rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -81,7 +79,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#3498db"
+              "color": "#2980b9"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#1a242f"
@@ -93,7 +91,7 @@
               "background": "#2c3e50"
             },
             ".bg-color.transparent .link": {
-              "color": "#3498db",
+              "color": "#2980b9",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -103,7 +101,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f39c12!important"
+              "color": "#2980b9!important"
             }
           },
           "alias": "colorm/components",
@@ -114,20 +112,16 @@
           "_anchor": "menu-1",
           "_params": {
             "bgColor": "#2c3e50",
-            "fontSize": "1.45",
-            "fontName": {
-              "name": "Raleway",
-              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "css": "'Raleway', sans-serif"
-            },
-            "fontColor": "#3498db",
+            "fontSize": "1.4",
+            "fontName": {},
+            "fontColor": "#2980b9",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -135,7 +129,7 @@
               "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -145,8 +139,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Loja.html#contacts1-9\">Contacto</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\" target=\"_blank\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
         },
         {
           "_styles": {
@@ -207,10 +201,10 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".mbr-section-text": {
-              "color": "#7f8c8d",
+              "color": "#ecf0f1",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "25px",
+              "font-size": "18px",
               "text-align": "right"
             }
           },
@@ -270,7 +264,7 @@
             }
           },
           "subtitle1": "Tulipas sempre frescas",
-          "caption1": "Tulipas: Gosta de muita luz, mas não deve ficar diretamente exposta ao sol, a terra deve ser mantida moderadamente Húmida.",
+          "caption1": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
           "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media2": {
             "image": {
@@ -293,7 +287,7 @@
             }
           },
           "subtitle2": "arranjo de flores diversas",
-          "caption2": "Como cuidar de bouquets:<br>Ao receber um bouquet de flores, corte o caule das flores delicadamente na diagonal, aproximadamente 1 cm da haste, arranque as folhas que forem ficando submersa na água e coloque o bouquet em um vaso com água fresca e limpa imediatamente.",
+          "caption2": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
           "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media3": {
             "image": {
@@ -316,7 +310,7 @@
             }
           },
           "subtitle3": "duzia de rosas em vaso",
-          "caption3": "Ao receber um arranjo floral, complete o compartimento de água imediatamente, usando sempre água fresca e limpa.<br>Mantenha seu arranjo em local fresco, evitando exposição direta ao sol, ao vento e ao ar condicionado/e ou aquecedores que recesam o ambiente, diminuindo a vida das flores do seu arranjo.",
+          "caption3": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
           "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media4": {
             "image": {
@@ -339,7 +333,7 @@
             }
           },
           "subtitle4": "bouquet de noiva",
-          "caption4": "Troque a água do vaso com as flores por completo diariamente sempre usando água fresca e limpa, evitando a proliferação de microorganismos. O caule deve ser podado pelo menos de dois em dois dias seguindo a forma indicada acima.<br>Algumas flores são mais sensíveis que outras, por este motivo é comum que algumas delas pereçam primeiro.",
+          "caption4": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
           "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media5": {
             "image": {
@@ -445,6 +439,106 @@
         },
         {
           "_styles": {},
+          "text": "Develop fully responsive, mobile-ready websites",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "intro4",
+          "_anchor": "intro4-l",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/09-1.jpg",
+            "bgColor": "#ba1212",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#34495e",
+            "showTitle": true,
+            "columns": 2
+          },
+          "form": {
+            "action": "jmsantos1863@outlook.com",
+            "alerts": {
+              "success": "obrigado "
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "title": "",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "linkInNewWindow": false,
+              "name": "angle-double-up",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "index.html",
+              "size": 60,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "subtitle1": "",
+          "caption1": "",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "socicon",
+              "active": true,
+              "link": "https://www.facebook.com/JMS-Web-Consulting-211909042608929",
+              "size": 60,
+              "color": "#00a885",
+              "newWindow": true
+            }
+          },
+          "subtitle2": "talk to us in Facebook",
+          "caption2": "WE will Reach back<br><br>Thank You",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "name": "desktop",
+              "link": "https://mobirise.com",
+              "size": 60,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle3": "BEAUTIFUL MOBILE WEBSITES",
+          "caption3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque, dicta delectus accusantium nihil eligendi?",
+          "arrowDown": "file:///C:/Users/jmsan/AppData/Local/Mobirise.com/Mobirise/projectData/arrowDown_1.png"
+        },
+        {
+          "_styles": {},
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "media": {
             "image": {
@@ -504,9 +598,7 @@
               "font-size": "2rem"
             },
             ".mbr-section-title": {
-              "color": "#3498db",
-              "font-size": "48px",
-              "text-align": "center"
+              "color": "#fff"
             }
           },
           "_tags": [
@@ -566,7 +658,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#34495e",
+            "bgColor": "#f7f7f7",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -576,7 +668,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -590,10 +682,10 @@
             }
           },
           "titled1": "<a href=\"index.html\">Private policy</a>",
-          "titled2": "<p><a href=\"index.html\">Conditions</a></p>",
+          "titled2": "Terms &amp; <a href=\"index.html\">Conditions</a>",
           "titled3": "<a href=\"index.html\">Copyright Notifications</a>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
-          "text": "<p>Se estiver interessado na construção de um website com uma loja online associado<br><br>pode contactar-me &nbsp; <a href=\"https://jmswebconsulting.eu\">jmswebconsulting.eu</a></p>"
+          "text": "<a href=\"index.html\">Copyright (c) 2016 tatiana's&nbsp;.</a>"
         }
       ]
     },
@@ -611,21 +703,19 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#3498db"
+              "color": "#2980b9"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3498db"
+              "background-color": "#2980b9"
             },
             ".link, .dropdown-item": {
-              "color": "#3498db",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-family": "'Raleway', sans-serif"
+              "color": "#2980b9"
             },
             ".link": {
-              "font-size": "1.45rem"
+              "font-size": "1.4rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.570rem"
+              "font-size": "1.516rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -634,7 +724,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#3498db"
+              "color": "#2980b9"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#1a242f"
@@ -646,7 +736,7 @@
               "background": "#2c3e50"
             },
             ".bg-color.transparent .link": {
-              "color": "#3498db",
+              "color": "#2980b9",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -656,7 +746,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f39c12!important"
+              "color": "#2980b9!important"
             }
           },
           "alias": "colorm/components",
@@ -667,20 +757,16 @@
           "_anchor": "menu-5",
           "_params": {
             "bgColor": "#2c3e50",
-            "fontSize": "1.45",
-            "fontName": {
-              "name": "Raleway",
-              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "css": "'Raleway', sans-serif"
-            },
-            "fontColor": "#3498db",
+            "fontSize": "1.4",
+            "fontName": {},
+            "fontColor": "#2980b9",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -688,7 +774,7 @@
               "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -698,8 +784,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Loja.html#contacts1-9\">Contacto</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\" target=\"_blank\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
         },
         {
           "_styles": {
@@ -710,11 +796,6 @@
               "color": "#fff",
               "text-transform": "uppercase",
               "margin-bottom": "0"
-            },
-            ".mbr-section-title": {
-              "font-size": "60px",
-              "text-align": "center",
-              "color": "#3498db"
             }
           },
           "alias": "colorm/components",
@@ -728,7 +809,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334-1.jpg",
             "bgColor": "#16a085",
             "bgColorRadio": false,
             "bgVideo": {
@@ -736,270 +817,16 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#2c3e50",
+            "overlayOpacity": "0.2",
+            "overlayColor": "#16a085",
             "showText": false,
             "showTitle": true,
             "showButtons": false
           },
           "text": "Develop fully responsive, mobile-ready websites",
-          "title": "Tatiana<br>Flower Shop<br>Online",
+          "title": "Tatiana<br>Flower Shop<br>Tomar",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown-2.png"
-        },
-        {
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-t",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#ecf0f1",
-            "showCat1": true,
-            "showCat2": true,
-            "showCat3": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "cat1": "morada",
-          "title1": "35 rua serpa pinto - 2300 Tomar",
-          "cat2": "telefone",
-          "title2": "234-567-890",
-          "cat3": "email",
-          "title3": "tatiana@statiana.pt",
-          "text": "Após confirmação de pagamento pelo Paypal, nós entraremos em contacto consigo (aguarde até 15 minutes),&nbsp;ou se preferir &nbsp;pode-nos contactar através dos meios &nbsp;disponibilizados.<br><br>Obrigado<br><br>A Gerência",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
-          "form": {
-            "action": "jmsantos1863@outlook.com",
-            "alerts": {
-              "success": "obrigado pela sua compra ou mensagem"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero contacts\" style=\"background-color: rgb(236, 240, 241); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-md-6 col-lg-5 col-lg-offset-1 text-xs-left \">\n\n                    <div>\n                      \n                      <p class=\"mbr-section-subtitle category mbr-editable-content\" code-editable-id=\"23\">morada</p>\n\n                      <h1 class=\"mbr-section-title display-6 mbr-editable-content\" code-editable-id=\"24\">35 rua serpa pinto - 2300 Tomar</h1>\n\n                    </div>\n                    <div>\n\n                      <p class=\"mbr-section-subtitle category mbr-editable-content\" code-editable-id=\"25\">telefone</p>\n\n                      <h1 class=\"mbr-section-title display-6 mbr-editable-content\" code-editable-id=\"26\">234-567-890</h1>\n\n                    </div>\n                    <div>\n                      <p class=\"mbr-section-subtitle category mbr-editable-content\" code-editable-id=\"27\">email</p>\n\n                      <h1 class=\"mbr-section-title display-6 mbr-editable-content\" code-editable-id=\"28\">tatiana@statiana.pt</h1>\n                    </div>\n\n                    <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"29\">Após confirmação de pagamento pelo Paypal, nós entraremos em contacto consigo (aguarde até 15 minutes),&nbsp;ou se preferir &nbsp;pode-nos contactar através dos meios &nbsp;disponibilizados.<br><br>Obrigado<br><br>A Gerência</p>\n\n                    \n                </div>\n\n                <div class=\"col-xs-12 col-md-6 col-lg-5\" data-form-type=\"formoid\">\n                  <div data-form-alert=\"true\">\n                      <div hidden=\"\" data-form-alert-success=\"true\" class=\"alert alert-form alert-success text-xs-center\">obrigado pela sua compra ou mensagem</div>\n                  </div>\n\n\n                  <form action=\"https://mobirise.com/\" method=\"post\" data-form-title=\"UNTITLED FORM\">\n\n                      <input type=\"hidden\" value=\"718dGlS0cHjXX93VJADHKdKdFWbBNWbScewRt06v5uSrmplfih6pxhaXa+NuBPALbw5zLSdxwpE28klh9SkA8ZoZacfJFPqa/I0bS17jWQiWU4XV2KoiqmF+qHk9s6PF\" data-form-email=\"true\">\n\n                      <div class=\"row row-sm-offset\">\n\n                          <div class=\"col-xs-12 col-md-4\">\n                              <div class=\"form-group\">\n                                  <label class=\"form-control-label\" for=\"contacts3-t-name\">Name<span class=\"form-asterisk\">*</span></label>\n                                  <div class=\"form-icon\"></div>\n                                  <input type=\"text\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" placeholder=\"Name*\" id=\"contacts3-t-name\">\n                              </div>\n                          </div>\n\n                          <div class=\"col-xs-12 col-md-4\">\n                              <div class=\"form-group\">\n                                  <label class=\"form-control-label\" for=\"contacts3-t-email\">Email<span class=\"form-asterisk\">*</span></label>\n                                  <div class=\"form-icon\"></div>\n                                  <input type=\"email\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" placeholder=\"Email*\" id=\"contacts3-t-email\">\n                              </div>\n                          </div>\n\n                          <div class=\"col-xs-12 col-md-4\">\n                              <div class=\"form-group\">\n                                  <label class=\"form-control-label\" for=\"contacts3-t-phone\">Phone</label>\n                                  <div class=\"form-icon\"></div>\n                                  <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone\" id=\"contacts3-t-phone\">\n                              </div>\n                          </div>\n\n                      </div>\n\n                      <div class=\"form-group\">\n                          <label class=\"form-control-label\" for=\"contacts3-t-message\">Message</label>\n                          <textarea class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\" placeholder=\"Message\" id=\"contacts3-t-message\"></textarea>\n                      </div>\n\n                      <div class=\"text-xs-center\"><button type=\"submit\" class=\"btn btn-primary mbr-editable-button\" code-editable-id=\"30\">CONTACT US</button></div>\n\n                  </form>\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ".form-control-label {\n\tcolor: undefined;\n}\n",
-          "_customTemplate": true
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content3",
-          "_anchor": "content3-p",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgColor": "#bbbbbb",
-            "showMeta": true
-          },
-          "title": "Artigos de Novidade",
-          "meta": "Destaques deste Mês"
-        },
-        {
-          "_styles": {
-            ".lead": {
-              "color": "#9fa3a7"
-            },
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase"
-            },
-            "DIV": {
-              "text-align": "right",
-              "font-size": "25px"
-            },
-            ".mbr-section-text": {
-              "color": "#000000",
-              "text-align": "left",
-              "font-size": "16px"
-            },
-            ".mbr-section-title P": {
-              "text-align": "left",
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
-              "font-size": "24px"
-            }
-          },
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features7",
-          "_anchor": "features7-n",
-          "_params": {
-            "imageSize": "22",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
-            "bgColor": "#bbbbbb",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#ecf0f1",
-            "showImages": true,
-            "showNumber": false,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": true
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/tulipas-600x748.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "number1": "1",
-          "subtitle1": "",
-          "title1": "<p><i>Vaso de cravos e orquideas &nbsp; &nbsp; Preço &nbsp;€55.00</i><a href=\"Loja.html\"></a></p>",
-          "caption1": "Composto por uma mistura de tulipas, rosas, cravos e verdura, inclui a base.<br>Este é um dos arranjos especiais , pode ser alterado consoante as suas necessidades.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=55.00&amp;item_name=vaso+de+cravos+e+orquideas&amp;currency_code=EUR\" data-toolbar=\"-mbrBtnMove\">adicionar ao carro</a> "
-        },
-        {
-          "_styles": {
-            ".lead": {
-              "color": "#9fa3a7"
-            },
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase",
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
-              "font-size": "22px",
-              "color": "#000000"
-            },
-            ".mbr-section-text": {
-              "color": "#000000"
-            }
-          },
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features7",
-          "_anchor": "features7-q",
-          "_params": {
-            "imageSize": "22",
-            "paddingTop": 2,
-            "paddingBottom": "3",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
-            "bgColor": "#bbbbbb",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#ecf0f1",
-            "showImages": true,
-            "showNumber": false,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": true
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/roses1-600x706.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "number1": "1",
-          "subtitle1": "Dúzia de Rosas em Jarra &nbsp; &nbsp; &nbsp;Preço 27.50&nbsp;",
-          "title1": "",
-          "caption1": "Arranjo de rosas com verdura, incluí a jarra de vidro.<br>Surpreenda alguém especial.<br>este é um dos arranjos especiais , pode ser alterado consoante as suas necessidades.",
-          "button1": " <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=27..50&amp;item_name=D%C3%BAzia+de+Rosas+em+Jarra&amp;currency_code=EUR\" data-toolbar=\"-mbrBtnMove\">adicionar ao carro</a>"
         },
         {
           "_styles": {
@@ -1038,16 +865,6 @@
             },
             ".shop-item-price": {
               "font-family": "@subtitleFont"
-            },
-            "H3": {
-              "font-size": "30px",
-              "color": "#2980b9"
-            },
-            ".sidebar-title": {
-              "color": "#e67e22"
-            },
-            ".item-subtitle": {
-              "font-size": "24px"
             }
           },
           "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
@@ -1058,7 +875,7 @@
           "_params": {
             "showSidebar": true,
             "showSortButtons": true,
-            "showStars": false,
+            "showStars": true,
             "paddingTop": 2,
             "paddingBottom": "2",
             "filterBgColor": false,
@@ -1073,15 +890,15 @@
                 "active": false,
                 "tags": "Awesome",
                 "bestSeller": true,
-                "thumb": "@PROJECT_PATH@/assets/images/arranjo-em-cesta-de-vime-2000x2359-800x943.jpg",
-                "image": "@PROJECT_PATH@/assets/images/arranjo%20em%20cesta%20de%20vime-2000x2359.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/arranjo-flores-diversas-2000x2594-800x1037.jpg",
+                "image": "@PROJECT_PATH@/assets/images/arranjo%20flores%20diversas-2000x2594.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "vaso de flores diversas",
-                "itemSubtitle": "mais vendido",
+                "itemSubtitle": "could be your best friend",
                 "starsImg": "@PROJECT_PATH@/assets/images/4.png",
                 "stars": "@PROJECT_PATH@/assets/images/4.png",
                 "itemPrice": "€36.00",
-                "itemDescription": "Uma explosão de cores vivas é a marca deste arranjo moderno. O azul do agapanto faz elegante contraste com os tons solares de rosas, mini rosas e alstromérias. Cravinas pontuam o arranjo com românticas pitadas de rosa claro e hortênsias trazem um toque dos quintais do interior. Para presentear com um quê de alegre nostalgia.",
+                "itemDescription": "Beware! It can fly away. We make no guarantees.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>367DDF5p</b>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=36&amp;item_name=vaso+de+flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar AO CARRO</a>"
               },
               {
@@ -1094,11 +911,11 @@
                 "image": "@PROJECT_PATH@/assets/images/roses1-2000x2356.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "Vaso de rosas",
-                "itemSubtitle": "Um Buquê de Rosas",
+                "itemSubtitle": "your energy dose",
                 "starsImg": "@PROJECT_PATH@/assets/images/2.png",
                 "stars": "@PROJECT_PATH@/assets/images/2.png",
                 "itemPrice": "€25.50",
-                "itemDescription": "Um Buquê de Rosas &nbsp;alegre e elegante composto por mix de lindas flores em tons de laranja e amarelo. São gérberas, lírios, rosas nacionais e importadas",
+                "itemDescription": "There are contraindications.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34567F5p</b>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=25.50&amp;item_name=Duzia+de+rosas&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">ADICIONAR AO CARRO</a>"
               },
               {
@@ -1107,34 +924,17 @@
                 "active": false,
                 "tags": "Creative",
                 "bestSeller": false,
-                "thumb": "@PROJECT_PATH@/assets/images/vaso-flores-2000x2064-800x825.jpg",
-                "image": "@PROJECT_PATH@/assets/images/vaso-flores-2000x2064.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/shop3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/shop3.jpg",
                 "onsale": "SALE 50% OFF",
                 "onSale": false,
-                "itemTitle": "cesta de flores diversas",
-                "itemSubtitle": "Arranjo de Flores",
+                "itemTitle": "flores2",
+                "itemSubtitle": "for freedom",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "€40.00",
-                "itemDescription": "Um arranjo de flores super alegre! Delicada mistura de tons neste mix de flores, em um vaso de vidro grosso mexicano, revestido com junco. Surpreenda com este belo arranjo em diversas ocasiões. O preferido das floristas!",
+                "itemDescription": "flores<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3476DF5p</b>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40.00&amp;item_name=Jarro+de+Flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
-              },
-              {
-                "itemPriceTitle": "From: ",
-                "caption": "Type caption here",
-                "active": false,
-                "tags": "Creative",
-                "bestSeller": false,
-                "thumb": "@PROJECT_PATH@/assets/images/tulipas-e-rosas-2000x2331-800x932.jpg",
-                "image": "@PROJECT_PATH@/assets/images/tulipas%20e%20rosas-2000x2331.jpg",
-                "onsale": "SALE 50% OFF",
-                "itemTitle": "orquideas",
-                "itemSubtitle": "sempre frescas",
-                "starsImg": "@PROJECT_PATH@/assets/images/5.png",
-                "stars": "@PROJECT_PATH@/assets/images/5.png",
-                "itemPrice": "€78.00",
-                "itemDescription": "Fabuloso arranjo, que alegra os olhos dos apreciadores de orquídeas, produzido pela designer e florista Tatiana, que inspira elegância e sofisticação. Vaso de vidro, totalmente revestido com junco e acompanhado das maravilhosas orquídeas&nbsp;",
-                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40&amp;item_name=Jarra+de+tulipas+e+rosas&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               },
               {
                 "itemPriceTitle": "From: ",
@@ -1142,16 +942,33 @@
                 "active": true,
                 "tags": "Creative",
                 "bestSeller": true,
+                "thumb": "@PROJECT_PATH@/assets/images/tulipas-e-rosas-2000x2331-800x932.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tulipas%20e%20rosas-2000x2331.jpg",
+                "onsale": "SALE 50% OFF",
+                "onSale": true,
+                "itemTitle": "orquideas",
+                "itemSubtitle": "sempre frescas",
+                "starsImg": "@PROJECT_PATH@/assets/images/5.png",
+                "stars": "@PROJECT_PATH@/assets/images/5.png",
+                "itemPrice": "€78.00",
+                "itemDescription": "You should believe it works, otherwise there is no magic!<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3478DF5p</b>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40&amp;item_name=Jarra+de+tulipas+e+rosas&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
+              },
+              {
+                "itemPriceTitle": "From: ",
+                "caption": "Type caption here",
+                "active": false,
+                "tags": "Creative",
+                "bestSeller": true,
                 "thumb": "@PROJECT_PATH@/assets/images/tulipas-2000x2494-800x997.jpg",
                 "image": "@PROJECT_PATH@/assets/images/tulipas-2000x2494.jpg",
                 "onsale": "SALE 50% OFF",
-                "onSale": true,
-                "itemTitle": "JARRA DE ORQUIDEAS",
-                "itemSubtitle": "especial do mês",
+                "itemTitle": "Invisible Hat",
+                "itemSubtitle": "seen/not seen on photo",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "€37.50",
-                "itemDescription": "Fabuloso arranjo, que alegra os olhos dos apreciadores de orquídeas, produzido pela designer e florista Juana Martinez, que inspira elegância e sofisticação. Vaso de vidro, totalmente revestido com junco e acompanhado das maravilhosas orquídeas&nbsp;",
+                "itemDescription": "Has no weight! Try not to lose it.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34GFDF5p</b>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=37.50&amp;item_name=jarro+de+orquideas+e+cravos&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1164,11 +981,11 @@
                 "image": "@PROJECT_PATH@/assets/images/vaso%20cravos-2000x2485.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "jarra de cravos",
-                "itemSubtitle": "arranjo colorido",
+                "itemSubtitle": "made for walking",
                 "starsImg": "@PROJECT_PATH@/assets/images/1.png",
                 "stars": "@PROJECT_PATH@/assets/images/1.png",
                 "itemPrice": "€25.00",
-                "itemDescription": "Suculentas são as estrelas deste arranjo que tem cor de algodão-doce, frescor de tarde na praia e o charme do primeiro amor. Além de vir com cravos vermelhos, flor-de-cenoura e folhas-de-eucalipto",
+                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>385DDF5p</b>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=25&amp;item_name=jarro+de+cravos&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1180,12 +997,12 @@
                 "thumb": "@PROJECT_PATH@/assets/images/vaso-flores-2000x2050-800x820.jpg",
                 "image": "@PROJECT_PATH@/assets/images/vaso%20flores-2000x2050.jpg",
                 "onsale": "SALE 50% OFF",
-                "itemTitle": "cesta de Flores",
-                "itemSubtitle": "Para celebrar datas especiais",
+                "itemTitle": "Backpack",
+                "itemSubtitle": "keeps your hands free",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "€29.00",
-                "itemDescription": "Uma explosão de cores vivas é a marca deste arranjo moderno criado pela nossa florista. O rosa do agapanto faz elegante contraste com os tons solares de rosas, mini rosas e alstromérias. Cravinas pontuam o arranjo com românticas pitadas de rosa claro e hortênsias trazem um toque dos quintais do interior. Para presentear com um quê de alegre nostalgia.",
+                "itemDescription": "Seen on photo. Check our gallery for more photos.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>340DDF5p</b>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=29&amp;item_name=Cesta+de+flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1197,171 +1014,33 @@
                 "thumb": "@PROJECT_PATH@/assets/images/roses1-2000x2356-800x942.jpg",
                 "image": "@PROJECT_PATH@/assets/images/roses1-2000x2356.jpg",
                 "onsale": "SALE 50% OFF",
-                "itemTitle": "Rosas Glamour",
-                "itemSubtitle": "faça-a Feliz",
+                "itemTitle": "Fun garlands",
+                "itemSubtitle": "to make your life happier",
                 "starsImg": "@PROJECT_PATH@/assets/images/4.png",
                 "stars": "@PROJECT_PATH@/assets/images/4.png",
                 "itemPrice": "€30.00",
-                "itemDescription": "<br>lindas rosas vermelhas colombianas, prontas para você presentear. Ótimo presente que virá embrulhado em acetato, em formato de buquê. Este presente será entregue em vaso de vidro.<br><br>",
+                "itemDescription": "Hand-made! So they may differ.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34556F5p</b>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=30.00&amp;item_name=arranjo+de+rosas&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
-              },
-              {
-                "itemPriceTitle": "From: ",
-                "caption": "Type caption here",
-                "active": false,
-                "tags": "Creative",
-                "bestSeller": false,
-                "thumb": "@PROJECT_PATH@/assets/images/arranjo-em-cesta-de-vime-2000x2359-800x943.jpg",
-                "image": "@PROJECT_PATH@/assets/images/arranjo%20em%20cesta%20de%20vime-2000x2359.jpg",
-                "onsale": "SALE 50% OFF",
-                "onSale": false,
-                "itemTitle": "arranjo em cesta de vime",
-                "itemSubtitle": "for freedom",
-                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
-                "stars": "@PROJECT_PATH@/assets/images/3.png",
-                "itemPrice": "€40.00",
-                "itemDescription": "Charmoso vaso de vime, com delicado mix de flores em tons de lilás. Contém folhagens e flores tradicionais como rosas nacionais, lisianthus, hortênsias, didiscos, tulbaghia e outras, em embalagem exclusiva",
-                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40.00&amp;item_name=Jarro+de+Flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               }
             ],
-            "bgColor": "#ffffff",
+            "bgColor": "#f5f5f5",
             "showTitle": true,
             "showBestSellers": true,
-            "priceRange": false,
-            "filter": false
+            "priceRange": true,
+            "filter": true
           },
           "_anchor": "shop1-7",
-          "title": "Produtos para entrega&nbsp;",
+          "title": "Loja on line",
           "filter_by_d": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">todos os artigos</a>",
-          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Preço: baixo ao alto</a>",
-          "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Preço: ALTO AO BAIXO</a>",
+          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Preço:baixo a alto</a>",
+          "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Preço:alto a baixo</a>",
           "articleLayout": false,
           "sidebar1": "Mais vendidos",
           "sidebar2": "Filter by price",
           "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
           "price_range_reset": "<a class=\"btn btn-secondary showAll\">Show all</a>",
-          "sidebar3": "Produtos por categorias",
+          "sidebar3": "Categorias de Produtos",
           "allItem": "Todos"
-        },
-        {
-          "_styles": {
-            ".card-block p": {
-              "font-size": "15px"
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials1",
-          "_params": {
-            "autoplay": true,
-            "timeout": 5,
-            "paddingTop": 2,
-            "paddingBottom": 1,
-            "slides": [
-              {
-                "active": true,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/roses1-135x160.jpg",
-                    "class": "img-circle",
-                    "link": "https://mobirise.com",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                },
-                "authorName": "José Alves",
-                "authorBio": "clinte antigo",
-                "text": "<p>“A Tatiana recomendou este arranjo e foi a escollha certa.</p><p>Muito Obrigadol”</p>"
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/vaso-flores-156x160.jpg",
-                    "class": "img-circle",
-                    "link": "https://mobirise.com",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                },
-                "authorName": "Jorge Pinto",
-                "authorBio": "novo cliente",
-                "text": "<p>“Este arranjo estave em promoção, foi um excelente nrgócio. ”</p>"
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/arranjo-em-cesta-de-vime-135x160.jpg",
-                    "class": "img-circle",
-                    "link": "https://mobirise.com",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                },
-                "authorName": "Fernando",
-                "authorBio": "Prenda para a mãe",
-                "text": "<p>“Este arranjo foi uma prenda para a minha mãe, ela adorou.</p><p>Obrigado pelo trabalho ”</p>"
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/vaso-cravos-128x160.jpg",
-                    "class": "img-circle",
-                    "link": "https://mobirise.com",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                },
-                "authorName": "Henriques",
-                "authorBio": "novo cliente",
-                "text": "<p>\"Foi a primeira vez que comprei online, adorei a experiência \"</p>"
-              }
-            ],
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showSubtitle": true,
-            "showBullets": true,
-            "visibleSlides": "3",
-            "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
-            "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
-          },
-          "_anchor": "testimonials1-o",
-          "title": "comentários de clientes",
-          "subtitle": "on nossos clientes são o motivo do nosso negócio"
         },
         {
           "_styles": {},
@@ -1384,7 +1063,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#ecf0f1",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
@@ -1405,14 +1084,114 @@
               "stateDetails": ""
             }
           },
-          "cat1": "morada",
-          "title1": "tomar",
+          "cat1": "address",
+          "title1": "350 5th Ave, New York, NY 10118",
           "cat2": "phone",
           "title2": "+1 234-567-890",
           "cat3": "email",
-          "title3": "Tatiana@tatianaflores.pt",
-          "text": "contate-nos online ou por telefone se quiser confirmar a sua ordem ou data e hora da entrega",
+          "title3": "sample@sample.us",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>"
+        },
+        {
+          "_styles": {},
+          "text": "Develop fully responsive, mobile-ready websites",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "intro4",
+          "_anchor": "intro4-m",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/09-1.jpg",
+            "bgColor": "#ba1212",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#3498db",
+            "showTitle": true,
+            "columns": 2
+          },
+          "form": {
+            "action": "jmsantos1863@outlook.com",
+            "alerts": {
+              "success": "obrigado "
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "title": "",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "linkInNewWindow": false,
+              "name": "angle-double-up",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "index.html",
+              "size": 60,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "subtitle1": "",
+          "caption1": "",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "socicon",
+              "active": true,
+              "link": "https://www.facebook.com/catarina.almeida.96387?fref=hovercard",
+              "size": 60,
+              "color": "#00a885",
+              "newWindow": true
+            }
+          },
+          "subtitle2": "talk to us in Facebook",
+          "caption2": "WE will Reach back<br><br>Thank You",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "name": "desktop",
+              "link": "https://mobirise.com",
+              "size": 60,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle3": "BEAUTIFUL MOBILE WEBSITES",
+          "caption3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque, dicta delectus accusantium nihil eligendi?",
+          "arrowDown": "file:///C:/Users/jmsan/AppData/Local/Mobirise.com/Mobirise/projectData/arrowDown_1.png"
         },
         {
           "_styles": {
@@ -1424,8 +1203,7 @@
               "font-size": "2rem"
             },
             ".mbr-section-title": {
-              "color": "#3498db",
-              "font-size": "60px"
+              "color": "#fff"
             }
           },
           "_tags": [
@@ -1439,14 +1217,14 @@
             "bgImageRadio": true,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/img-extheader7-bg.jpg",
-            "bgColor": "#dddddd",
+            "bgColor": "#fff",
             "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.4,
             "overlayColor": "#35a0c6",
             "facebook": true,
-            "twitter": false,
-            "google": false,
+            "twitter": true,
+            "google": true,
             "vkontakte": false,
             "odnoklassniki": false
           },
@@ -1468,21 +1246,19 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#3498db"
+              "color": "#2980b9"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#3498db"
+              "background-color": "#2980b9"
             },
             ".link, .dropdown-item": {
-              "color": "#3498db",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-family": "'Raleway', sans-serif"
+              "color": "#2980b9"
             },
             ".link": {
-              "font-size": "1.45rem"
+              "font-size": "1.4rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.570rem"
+              "font-size": "1.516rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -1491,7 +1267,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#3498db"
+              "color": "#2980b9"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#1a242f"
@@ -1503,7 +1279,7 @@
               "background": "#2c3e50"
             },
             ".bg-color.transparent .link": {
-              "color": "#3498db",
+              "color": "#2980b9",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1513,7 +1289,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f39c12!important"
+              "color": "#2980b9!important"
             }
           },
           "alias": "colorm/components",
@@ -1524,20 +1300,16 @@
           "_anchor": "menu-a",
           "_params": {
             "bgColor": "#2c3e50",
-            "fontSize": "1.45",
-            "fontName": {
-              "name": "Raleway",
-              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "css": "'Raleway', sans-serif"
-            },
-            "fontColor": "#3498db",
+            "fontSize": "1.4",
+            "fontName": {},
+            "fontColor": "#2980b9",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -1545,7 +1317,7 @@
               "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "https://mobirise.com",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1555,8 +1327,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Loja.html#contacts1-9\">Contacto</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Tatiana's</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Loja.html\" aria-expanded=\"false\" target=\"_blank\">Loja online</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Acerca.html\" aria-expanded=\"false\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Carro+de+compras&amp;currency_code=EUR\">Carro de compras</a></li>"
         },
         {
           "_tags": [
