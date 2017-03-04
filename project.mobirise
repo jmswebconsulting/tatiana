@@ -576,7 +576,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1282.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1284.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -850,7 +850,7 @@
           "number1": "1",
           "subtitle1": "",
           "title1": "<p><i>Vaso de cravos e orquideas &nbsp; &nbsp; Preço &nbsp;€55.00</i><a href=\"Loja.html\"></a></p>",
-          "caption1": "Este é um dos arranjos especiais , pode ser alterado consoante as suas necessidades.",
+          "caption1": "Composto por uma mistura de tulipas, rosas, cravos e verdura, inclui a base.<br>Este é um dos arranjos especiais , pode ser alterado consoante as suas necessidades.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=55.00&amp;item_name=vaso+de+cravos+e+orquideas&amp;currency_code=EUR\" data-toolbar=\"-mbrBtnMove\">adicionar ao carro</a> "
         },
         {
@@ -863,6 +863,9 @@
               "font-family": "'PT Serif', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
               "font-size": "22px",
+              "color": "#000000"
+            },
+            ".mbr-section-text": {
               "color": "#000000"
             }
           },
@@ -925,7 +928,7 @@
           "number1": "1",
           "subtitle1": "Dúzia de Rosas em Jarra &nbsp; &nbsp; &nbsp;Preço 27.50&nbsp;",
           "title1": "",
-          "caption1": "este é um dos arranjos especiais , pode ser alterado consoante as suas necessidades.",
+          "caption1": "Arranjo de rosas com verdura, incluí a jarra de vidro.<br>Surpreenda alguém especial.<br>este é um dos arranjos especiais , pode ser alterado consoante as suas necessidades.",
           "button1": " <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=27..50&amp;item_name=D%C3%BAzia+de+Rosas+em+Jarra&amp;currency_code=EUR\" data-toolbar=\"-mbrBtnMove\">adicionar ao carro</a>"
         },
         {
@@ -972,6 +975,9 @@
             },
             ".sidebar-title": {
               "color": "#e67e22"
+            },
+            ".item-subtitle": {
+              "font-size": "24px"
             }
           },
           "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
@@ -1005,7 +1011,7 @@
                 "starsImg": "@PROJECT_PATH@/assets/images/4.png",
                 "stars": "@PROJECT_PATH@/assets/images/4.png",
                 "itemPrice": "€36.00",
-                "itemDescription": "Beware! It can fly away. We make no guarantees.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>367DDF5p</b>",
+                "itemDescription": "Uma explosão de cores vivas é a marca deste arranjo moderno. O azul do agapanto faz elegante contraste com os tons solares de rosas, mini rosas e alstromérias. Cravinas pontuam o arranjo com românticas pitadas de rosa claro e hortênsias trazem um toque dos quintais do interior. Para presentear com um quê de alegre nostalgia.",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=36&amp;item_name=vaso+de+flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar AO CARRO</a>"
               },
               {
@@ -1018,11 +1024,11 @@
                 "image": "@PROJECT_PATH@/assets/images/roses1-2000x2356.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "Vaso de rosas",
-                "itemSubtitle": "your energy dose",
+                "itemSubtitle": "Um Buquê de Rosas",
                 "starsImg": "@PROJECT_PATH@/assets/images/2.png",
                 "stars": "@PROJECT_PATH@/assets/images/2.png",
                 "itemPrice": "€25.50",
-                "itemDescription": "There are contraindications.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34567F5p</b>",
+                "itemDescription": "Um Buquê de Rosas &nbsp;alegre e elegante composto por mix de lindas flores em tons de laranja e amarelo. São gérberas, lírios, rosas nacionais e importadas",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=25.50&amp;item_name=Duzia+de+rosas&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">ADICIONAR AO CARRO</a>"
               },
               {
@@ -1036,11 +1042,11 @@
                 "onsale": "SALE 50% OFF",
                 "onSale": false,
                 "itemTitle": "cesta de flores diversas",
-                "itemSubtitle": "for freedom",
+                "itemSubtitle": "Arranjo de Flores",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "€40.00",
-                "itemDescription": "flores<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3476DF5p</b>",
+                "itemDescription": "Um arranjo de flores super alegre! Delicada mistura de tons neste mix de flores, em um vaso de vidro grosso mexicano, revestido com junco. Surpreenda com este belo arranjo em diversas ocasiões. O preferido das floristas!",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40.00&amp;item_name=Jarro+de+Flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1057,7 +1063,7 @@
                 "starsImg": "@PROJECT_PATH@/assets/images/5.png",
                 "stars": "@PROJECT_PATH@/assets/images/5.png",
                 "itemPrice": "€78.00",
-                "itemDescription": "You should believe it works, otherwise there is no magic!<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3478DF5p</b>",
+                "itemDescription": "Fabuloso arranjo, que alegra os olhos dos apreciadores de orquídeas, produzido pela designer e florista Tatiana, que inspira elegância e sofisticação. Vaso de vidro, totalmente revestido com junco e acompanhado das maravilhosas orquídeas&nbsp;",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40&amp;item_name=Jarra+de+tulipas+e+rosas&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1071,11 +1077,11 @@
                 "onsale": "SALE 50% OFF",
                 "onSale": true,
                 "itemTitle": "JARRA DE ORQUIDEAS",
-                "itemSubtitle": "seen/not seen on photo",
+                "itemSubtitle": "especial do mês",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "€37.50",
-                "itemDescription": "Has no weight! Try not to lose it.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>34GFDF5p</b>",
+                "itemDescription": "Fabuloso arranjo, que alegra os olhos dos apreciadores de orquídeas, produzido pela designer e florista Juana Martinez, que inspira elegância e sofisticação. Vaso de vidro, totalmente revestido com junco e acompanhado das maravilhosas orquídeas&nbsp;",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=37.50&amp;item_name=jarro+de+orquideas+e+cravos&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1088,11 +1094,11 @@
                 "image": "@PROJECT_PATH@/assets/images/vaso%20cravos-2000x2485.jpg",
                 "onsale": "SALE 50% OFF",
                 "itemTitle": "jarra de cravos",
-                "itemSubtitle": "made for walking",
+                "itemSubtitle": "arranjo colorido",
                 "starsImg": "@PROJECT_PATH@/assets/images/1.png",
                 "stars": "@PROJECT_PATH@/assets/images/1.png",
                 "itemPrice": "€25.00",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>385DDF5p</b>",
+                "itemDescription": "Suculentas são as estrelas deste arranjo que tem cor de algodão-doce, frescor de tarde na praia e o charme do primeiro amor. Além de vir com cravos vermelhos, flor-de-cenoura e folhas-de-eucalipto",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=25&amp;item_name=jarro+de+cravos&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1109,7 +1115,7 @@
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "€29.00",
-                "itemDescription": "Seen on photo. Check our gallery for more photos.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>340DDF5p</b>",
+                "itemDescription": "Uma explosão de cores vivas é a marca deste arranjo moderno criado pela nossa florista. O rosa do agapanto faz elegante contraste com os tons solares de rosas, mini rosas e alstromérias. Cravinas pontuam o arranjo com românticas pitadas de rosa claro e hortênsias trazem um toque dos quintais do interior. Para presentear com um quê de alegre nostalgia.",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=29&amp;item_name=Cesta+de+flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1126,7 +1132,7 @@
                 "starsImg": "@PROJECT_PATH@/assets/images/4.png",
                 "stars": "@PROJECT_PATH@/assets/images/4.png",
                 "itemPrice": "€30.00",
-                "itemDescription": "Hand-made! So they may differ.<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br><br>",
+                "itemDescription": "<br>lindas rosas vermelhas colombianas, prontas para você presentear. Ótimo presente que virá embrulhado em acetato, em formato de buquê. Este presente será entregue em vaso de vidro.<br><br>",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=30.00&amp;item_name=arranjo+de+rosas&amp;currency_code=USD\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               },
               {
@@ -1144,7 +1150,7 @@
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
                 "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "itemPrice": "€40.00",
-                "itemDescription": "flores<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br> Product code: <b>3476DF5p</b>",
+                "itemDescription": "Charmoso vaso de vime, com delicado mix de flores em tons de lilás. Contém folhagens e flores tradicionais como rosas nacionais, lisianthus, hortênsias, didiscos, tulbaghia e outras, em embalagem exclusiva",
                 "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=40.00&amp;item_name=Jarro+de+Flores&amp;currency_code=EUR\" class=\"btn btn-primary btn-primary-outline\">adicionar ao carro</a>"
               }
             ],
@@ -1334,7 +1340,7 @@
           "cat2": "phone",
           "title2": "+1 234-567-890",
           "cat3": "email",
-          "title3": "sample@sample.pt",
+          "title3": "Tatiana@tatianaflores.pt",
           "text": "contate-nos online ou por telefone se quiser confirmar a sua ordem ou data e hora da entrega",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>"
         },
@@ -1464,7 +1470,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1282.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1284.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",

@@ -959,6 +959,9 @@ blockquote {
   font-size: 22px;
   color: #000000;
 }
+#features7-q .mbr-section-text {
+  color: #000000;
+}
 #shop1-7 .galleryItem h4:hover {
   color: #f39c12;
 }
@@ -1002,6 +1005,9 @@ blockquote {
 }
 #shop1-7 .sidebar-title {
   color: #e67e22;
+}
+#shop1-7 .item-subtitle {
+  font-size: 24px;
 }
 #testimonials1-o .card-block p {
   font-size: 15px;
