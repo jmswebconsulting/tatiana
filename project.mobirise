@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Flower shop",
-    "currentPage": "Loja.html",
+    "currentPage": "Acerca.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -576,7 +576,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1286.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1288.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -1398,19 +1398,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#2980b9"
+              "color": "#3498db"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#2980b9"
+              "background-color": "#3498db"
             },
             ".link, .dropdown-item": {
-              "color": "#2980b9"
+              "color": "#3498db",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
             },
             ".link": {
-              "font-size": "1.4rem"
+              "font-size": "1.45rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.516rem"
+              "font-size": "1.570rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -1419,7 +1421,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#2980b9"
+              "color": "#3498db"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#1a242f"
@@ -1431,7 +1433,7 @@
               "background": "#2c3e50"
             },
             ".bg-color.transparent .link": {
-              "color": "#2980b9",
+              "color": "#3498db",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1470,10 +1472,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1286.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
