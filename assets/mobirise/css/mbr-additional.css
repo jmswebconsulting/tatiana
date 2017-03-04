@@ -911,6 +911,11 @@ blockquote {
   text-transform: uppercase;
   margin-bottom: 0;
 }
+#header3-6 .mbr-section-title {
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
 #shop1-7 .galleryItem h4:hover {
   color: #f39c12;
 }
@@ -947,6 +952,13 @@ blockquote {
 }
 #shop1-7 .shop-item-price {
   font-family: Montserrat;
+}
+#shop1-7 H3 {
+  font-size: 30px;
+  color: #2980b9;
+}
+#shop1-7 .sidebar-title {
+  color: #e67e22;
 }
 #social-buttons1-8 .btn-social {
   color: #fff;
