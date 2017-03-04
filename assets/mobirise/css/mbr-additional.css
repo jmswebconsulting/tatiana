@@ -925,6 +925,10 @@ blockquote {
 #features7-n DIV {
   text-align: right;
 }
+#features7-n .mbr-section-text {
+  color: #c0392b;
+  text-align: right;
+}
 #shop1-7 .galleryItem h4:hover {
   color: #f39c12;
 }
