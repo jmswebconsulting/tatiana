@@ -1,9 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
+
 
 
 
@@ -730,22 +731,23 @@ blockquote {
   color: #ffffff;
 }
 #menu-1 .navbar-toggler {
-  color: #2980b9;
+  color: #3498db;
 }
 #menu-1 .close-icon::before,
 #menu-1 .close-icon::after {
-  background-color: #2980b9;
+  background-color: #3498db;
 }
 #menu-1 .link,
 #menu-1 .dropdown-item {
-  color: #2980b9;
+  color: #3498db;
+  font-family: 'Raleway', sans-serif;
 }
 #menu-1 .link {
-  font-size: 1.4rem;
+  font-size: 1.45rem;
 }
 #menu-1 .dropdown-item,
 #menu-1 .nav-dropdown-sm .link {
-  font-size: 1.516rem;
+  font-size: 1.570rem;
 }
 #menu-1 .link:hover,
 #menu-1 .link:focus {
@@ -757,7 +759,7 @@ blockquote {
 }
 #menu-1 .dropdown-item:hover,
 #menu-1 .dropdown-item:focus {
-  color: #2980b9;
+  color: #3498db;
 }
 #menu-1 .link[aria-expanded="true"],
 #menu-1 .dropdown-menu {
@@ -776,7 +778,7 @@ blockquote {
   background: #2c3e50;
 }
 #menu-1 .bg-color.transparent .link {
-  color: #2980b9;
+  color: #3498db;
   transition: none;
 }
 #menu-1 .bg-color.transparent.opened .link {
@@ -836,7 +838,9 @@ blockquote {
   font-size: 2rem;
 }
 #social-buttons1-k .mbr-section-title {
-  color: #fff;
+  color: #3498db;
+  font-size: 48px;
+  text-align: center;
 }
 
 
@@ -920,7 +924,7 @@ blockquote {
 #header3-6 .mbr-section-title {
   font-size: 60px;
   text-align: center;
-  color: #ffffff;
+  color: #3498db;
 }
 #content3-p .mbr-section-title,
 #content3-p .mbr-section-subtitle {

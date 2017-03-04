@@ -58,19 +58,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#2980b9"
+              "color": "#3498db"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#2980b9"
+              "background-color": "#3498db"
             },
             ".link, .dropdown-item": {
-              "color": "#2980b9"
+              "color": "#3498db",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
             },
             ".link": {
-              "font-size": "1.4rem"
+              "font-size": "1.45rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.516rem"
+              "font-size": "1.570rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -79,7 +81,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#2980b9"
+              "color": "#3498db"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#1a242f"
@@ -91,7 +93,7 @@
               "background": "#2c3e50"
             },
             ".bg-color.transparent .link": {
-              "color": "#2980b9",
+              "color": "#3498db",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -133,7 +135,7 @@
               "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -502,7 +504,9 @@
               "font-size": "2rem"
             },
             ".mbr-section-title": {
-              "color": "#fff"
+              "color": "#3498db",
+              "font-size": "48px",
+              "text-align": "center"
             }
           },
           "_tags": [
@@ -562,7 +566,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f7f7f7",
+            "bgColor": "#34495e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -572,7 +576,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1281.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -586,7 +590,7 @@
             }
           },
           "titled1": "<a href=\"index.html\">Private policy</a>",
-          "titled2": "Terms &amp; <a href=\"index.html\">Conditions</a>",
+          "titled2": "<p><a href=\"index.html\">Conditions</a></p>",
           "titled3": "<a href=\"index.html\">Copyright Notifications</a>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "text": "<a href=\"index.html\">Copyright (c) 2016 tatiana's&nbsp;.</a>"
@@ -681,7 +685,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1282.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -710,7 +714,7 @@
             ".mbr-section-title": {
               "font-size": "60px",
               "text-align": "center",
-              "color": "#ffffff"
+              "color": "#3498db"
             }
           },
           "alias": "colorm/components",
@@ -1460,7 +1464,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1281.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
