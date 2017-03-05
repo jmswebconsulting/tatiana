@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Flower shop",
-    "currentPage": "Acerca.html",
+    "currentPage": "Loja.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -1086,12 +1086,12 @@
             }
           },
           "cat1": "address",
-          "title1": "350 5th Ave, New York, NY 10118",
+          "title1": "Tomar",
           "cat2": "phone",
           "title2": "+1 234-567-890",
           "cat3": "email",
-          "title3": "sample@sample.us",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "title3": "Ana@tatiana.pt",
+          "text": "Rosas, Jarros, malmequeres, peónias, cravos, frésias, girassóis, narcisos e tulipas. A lista continua, até porque as nossas floristas  são especialistas em juntar estas e outras flores e em fazer os ramos mais originais da cidade. Das flores aos complementos, dos arranjos mais tradicionais aos avant-garde, descubra os recantos mais floridos  e surpreenda com flores, mas também com outros presentes. na nossa loja pode econtrar de tudo .",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>"
         },
         {
@@ -1315,7 +1315,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1281.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1283.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
