@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Flower shop",
-    "currentPage": "index.html",
+    "currentPage": "Acerca.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -668,7 +668,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1287.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1281.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -1171,7 +1171,7 @@
               "name": "facebook",
               "family": "socicon",
               "active": true,
-              "link": "https://www.facebook.com/catarina.almeida.96387?fref=hovercard",
+              "link": "https://www.facebook.com/JMS-Web-Consulting-211909042608929",
               "size": 60,
               "color": "#00a885",
               "newWindow": true
