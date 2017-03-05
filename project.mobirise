@@ -129,7 +129,7 @@
               "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "Loja.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -668,7 +668,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1287.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -774,7 +774,7 @@
               "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1315,7 +1315,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1285.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x128.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
