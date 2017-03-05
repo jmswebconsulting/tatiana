@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Flower shop",
-    "currentPage": "Loja.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -205,7 +205,7 @@
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
               "font-size": "18px",
-              "text-align": "right"
+              "text-align": "left"
             }
           },
           "title1": "Bootstrap 4",
@@ -264,7 +264,7 @@
             }
           },
           "subtitle1": "Tulipas sempre frescas",
-          "caption1": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "caption1": "Tulipas – São tipicamente &nbsp;flores de inverno , chegam a durar 5 dias, mas você deve trocar a água todos os dias e, preferencialmente, colocar água gelada ou gelo mesmo,",
           "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media2": {
             "image": {
@@ -287,7 +287,7 @@
             }
           },
           "subtitle2": "arranjo de flores diversas",
-          "caption2": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "caption2": "Assim que compra suas flores no mercado, elas vêm embaladas num plástico. Retire-as do plástico assim que possível, e coloque na água.<br>Limpe o caule, retirando as folhas em excesso e principalmente aquelas que ficarão submersas, pois a folha em contato com a água faz com que as bactérias se proliferem na água com maior rapidez e consequentemente, o arranjo vai durar menos.<br>",
           "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media3": {
             "image": {
@@ -310,7 +310,7 @@
             }
           },
           "subtitle3": "duzia de rosas em vaso",
-          "caption3": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "caption3": "Flores mais nobres e delicadas, como cravos, bocas-de-leão, lisianthus tendem a durar menos, em média 5 dias,<br><br>&nbsp;Rosas e os lírios, que também são consideradas flores nobres, tem uma boa durabilidade e, quando estão na época certa, compradas frescas, chegam a durar por volta de 1 semana,",
           "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media4": {
             "image": {
@@ -332,8 +332,8 @@
               "family": "et-line"
             }
           },
-          "subtitle4": "bouquet de noiva",
-          "caption4": "Glow for it! Capture the magic of a tropical sunset with this gorgeously glowing bouquet. Lush lilies and roses in radiant shades of orange and yellow are presented in a golden Mirrored Cube for a touch of instant glam.<br><br>Soft orange roses, asiatic lilies and miniature carnations ar",
+          "subtitle4": "cuidados a ter",
+          "caption4": "Para manter os arranjos bonitos e durar mais tempo:<br><br>A flor deve ser fresca – quando comprar, verifique se as folhas estão firmes e  se o caule está verde e sem cheiro<br>O vaso deve estar muito bem limpo, lavado com água e sabão<br>borrife água de tempos em tempos e spray de brilho uma vez ao dia<br>use água filtrada – dica: as tulipas amam água gelada!,<br>a cada 2 dias repita o processo: troque a água, apare as pontinhas do caule e lave os vasos com água e sabão<br>use na água um conservante de flores {eu uso e indico a marca Flower, à venda em casas especializadas}. Mas também uma solução caseira para o conservante é pingar 2 gotinhas de água sanitária na água do vaso.",
           "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "media5": {
             "image": {
@@ -1315,7 +1315,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1283.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vaso-flores-124x1285.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
